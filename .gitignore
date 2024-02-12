@@ -1,0 +1,10 @@
+venv/
+model/*
+data/deeplab_model/*
+.idea/
+.env
+.aws
+.elasticbeanstalk
+.ebignore
+rookey.csv
+**/__pycache__/

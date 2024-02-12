@@ -1,0 +1,31 @@
+
+<html>
+<head>
+    <title>upload the file : GFG</title>
+</head>
+<body>
+    <form action = "/type" method = "post" enctype="multipart/form-data">
+        image front
+        <input type="file" name="image_front" />
+        <br>
+        image back
+        <input type="file" name="image_back" />
+        <br>
+        image left
+        <input type="file" name="image_left" />
+        <br>
+        height
+        <input type="text" name="height" />
+        <input type = "submit" value="Upload">
+    </form>
+
+    {% if result %}
+    {% for key, value in result.items() %}
+    <p>{{ key }}: {{ value }}</p>
+    {% endfor %}
+    {% endif %}
+     <img src="/image/image_front" alt="My front Image">
+    <img src="/image/image_left" alt="My left Image">
+
+</body>
+</html>
