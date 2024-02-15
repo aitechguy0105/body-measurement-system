@@ -124,6 +124,7 @@ if __name__ == '__main__':
     # if not os.path.exists(DIR_OUT):
     #     os.makedirs(DIR_OUT)
     #
+
     DIR_IN = '../data/images'
     DIR_OUT = f'../data/resized_images/'
     for f in Path(DIR_OUT).glob('*.*'):
