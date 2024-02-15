@@ -6,5 +6,5 @@ data/deeplab_model/*
 .aws
 .elasticbeanstalk
 .ebignore
-rookey.csv
+rootkey.csv
 **/__pycache__/
